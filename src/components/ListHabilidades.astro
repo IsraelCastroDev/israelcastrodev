@@ -1,0 +1,53 @@
+---
+import { IoLogoHtml5 } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoReact } from "react-icons/io5";
+import { SiAstro } from "react-icons/si";
+---
+
+<ul class="grid grid-cols-2 gap-3">
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>HTML</span>
+    <IoLogoHtml5
+      size={30}
+      className="hover:text-orange-500 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>CSS</span>
+    <IoLogoCss3
+      size={30}
+      className="hover:text-sky-400 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>Tailwind CSS</span>
+    <BiLogoTailwindCss
+      size={30}
+      className="hover:text-sky-400 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>JavaScript</span>
+    <IoLogoJavascript
+      size={30}
+      className="hover:text-yellow-400 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>React</span>
+    <IoLogoReact
+      size={30}
+      className="hover:text-sky-400 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+  <li class="p-3 border border-slate-700 flex justify-between items-center">
+    <span>Astro</span>
+    <SiAstro
+      size={30}
+      className="hover:text-slate-400 transition-colors duration-500 ease-in-out"
+    />
+  </li>
+</ul>

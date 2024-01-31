@@ -1,0 +1,29 @@
+---
+interface Props {
+  source: string;
+  altText: string;
+}
+
+const { source, altText } = Astro.props;
+
+
+---
+
+<article class="bg-sky-950 p-3 rounded-md flex flex-col gap-3">
+  <div class="">
+    <a href="/">
+      <img src={source} alt={altText} title={altText} class="rounded-md" />
+    </a>
+    <div class="hidden">
+      <p>Holaaaaa</p>
+    </div>
+  </div>
+  <div>
+    <p class="text-pretty">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo non
+      perferendis a accusantium neque similique! Autem quia placeat vel quasi
+      nam nemo deleniti eius commodi consequuntur dolorem
+    </p>
+    <p>tecnologias, tecnologias, tecnologias</p>
+  </div>
+</article>

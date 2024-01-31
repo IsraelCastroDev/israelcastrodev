@@ -1,0 +1,43 @@
+---
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+---
+
+<section class="h-[75vh] py-20 flex flex-col justify-center">
+  <div class="">
+    <h1
+      class="text-5xl sm:text-6xl lg:text-6xl sm:black font-semibold tracking-wider text-green-500"
+    >
+      Israel Castro
+    </h1>
+    <h2 class="text-2xl font-black tracking-wider">Desarrollador Frontend</h2>
+
+    <p class="text-pretty mt-7 md:w-[400px]">
+      Experiencia sólida en programación, desarrollando proyectos personales con
+      dedicación. Especializado en la creación de interfaces frontend con
+      soluciones creativas y eficientes.
+    </p>
+  </div>
+
+  <div class="flex gap-6 items-center mt-3">
+    <a href="/">
+      <FaLinkedin
+        size={30}
+        className="hover:text-sky-700 text-white transition-colors duration-500 ease-in-out rounded-md hover:rounded-md"
+      />
+    </a>
+    <a href="/">
+      <FaGithub
+        size={30}
+        className="hover:text-green-500 transition-colors duration-500 ease-in-out rounded-md hover:rounded-md"
+      />
+    </a>
+    <a href="/">
+      <MdOutlineEmail
+        size={30}
+        className="hover:text-green-500 transition-colors duration-500 ease-in-out rounded-md hover:rounded-md"
+      />
+    </a>
+  </div>
+</section>
